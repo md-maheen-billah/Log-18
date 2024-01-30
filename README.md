@@ -18,5 +18,5 @@ console.log(colors["golden rod"]);
 // #daa520
 ---
 ---
-### Practice Task-1:
+### Practice Task-2:
 For this object below add a property named `passenger capacity` with value 5
