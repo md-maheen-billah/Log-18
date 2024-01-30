@@ -16,7 +16,27 @@ const colors = {
 console.log(colors["golden rod"]);
 // PS C:\Projects\Log-18\object> node practice1.js
 // #daa520
----
+
+```
 ---
 ### Practice Task-2:
 For this object below add a property named `passenger capacity` with value 5
+```js
+const car = {
+  make: "Toyota",
+  model: "Corolla",
+  year: 2020,
+};
+car["passenger capacity"] = 5;
+console.log(car);
+// PS C:\Projects\Log-18\object> node practice2.js                                                  
+// {
+//   make: 'Toyota',
+//   model: 'Corolla',
+//   year: 2020,
+//   'passenger capacity': 5
+// }
+
+```
+---
+### Practice Task-3:
