@@ -17,3 +17,5 @@ console.log(colors["golden rod"]);
 // PS C:\Projects\Log-18\object> node practice1.js
 // #daa520
 
+### Task-2
+For this object below add a property named `passenger capacity` with value 5
