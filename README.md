@@ -1,5 +1,5 @@
-# Log 17 (Duration: 6 Months)
-Today's lesson focused on while loop, for loop, break, continue, and do-while loop. Some practice tasks were assigned.
+# Log 18 (Duration: 6 Months)
+Today's lesson focused on onject, arrays vs object, cases, trim, more about string, split, join, string reverse, object delete and more.
 
 ---
 
