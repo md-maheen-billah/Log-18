@@ -94,3 +94,90 @@ for (const prop in myObject) {
 
 ```
 ---
+
+## String
+### Practice Task-1:
+Count how many times a string has the letter `a`
+```js
+const str = "abrakadabra";
+let counter = 0;
+for (let i = 0; i <= str.length; i++) {
+  if (str[i] === "a") {
+    counter++;
+  }
+}
+console.log(counter + " times");
+// PS C:\Projects\Log-18\string> node practice1.js
+// 5 times
+
+```
+---
+### Practice Task-2:
+Count how many times a string has the letter `a` or `A`
+```js
+const str = "Abrakadabra";
+let counter = 0;
+for (let i = 0; i <= str.length; i++) {
+  if (str[i] === "a" || str[i] === "A") {
+    counter++;
+  }
+}
+console.log(counter + " times");
+// PS C:\Projects\Log-18\string> node practice1.js
+// 5 times
+
+```
+---
+### Practice Task-3:
+Check whether a string contains all the vowels `a`, `e`, `i`, `o`, `u` 
+```js
+const myString = "sequoia";
+const vowels = "aeiou";
+let containsAllVowels = true;
+
+for (const vowel of vowels) {
+  if (myString.toLowerCase().includes(vowel)) {
+    continue;
+  }
+  containsAllVowels = false;
+  break;
+}
+
+if (containsAllVowels) {
+  console.log("The string contains all vowels.");
+} else {
+  console.log("The string does not contain all vowels.");
+}
+// PS C:\Projects\Log-18\string> node practice3.js
+// The string contains all vowels.
+
+```
+---
+### Practice Task-4:
+If a given string has either x, replace x by y. if the given string has X, replace it by Y.
+```js
+let myString = "Xian,xiao,xiang";
+if (myString.includes("x") || myString.includes("X")) {
+  myString = myString.replace(/x/g, "y").replace(/X/g, "Y");
+}
+console.log(myString);
+// PS C:\Projects\Log-18\string>  node practice4.js
+// Yian,yiao,yiang
+
+```
+---
+### Practice Task-5:
+Capitalize Every first Letter of each word in a String
+```js
+let myString = "hello world";
+
+let capitalizedString = myString.replace(/\b\w/g, function (character) {
+  return character.toUpperCase();
+});
+
+console.log(capitalizedString);
+// PS C:\Projects\Log-18\string>  node practice5.js
+// Hello World
+
+```
+---
